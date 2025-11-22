@@ -3,6 +3,7 @@ body{
 }
 .navbar{
     overflow-x:scroll;
+    scrollbar-width:none;
     height: 50px;
     background-color: #596E79;
     color: beige;
