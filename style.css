@@ -1,0 +1,92 @@
+body{
+    background-color: #d8d5cf;
+}
+.navbar{
+    height: 50px;
+    background-color: #596E79;
+    color: beige;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 800px;
+    border-radius: 30px;
+    
+}
+.navlist{
+    display: flex ;
+    list-style-type:none;
+    gap: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1px;
+    
+}
+.search{
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{
+    background-color:#C7B198;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 60px;
+    font-size: 14px;
+}
+.button:hover{
+    background-color: rgb(70, 28, 18);
+    color:lightskyblue;
+}
+.landing_page{
+    height: 600px;
+    width: auto;
+    background-color: #949a9d;
+    margin-top:25px;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.lp_border{
+    background-color: #949a9d;
+    height:550px;
+    width:96%;
+    margin:12px;
+    border-radius: 30px;
+    border: solid #d8d5cf;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    text-align: center;
+}
+
+.cardholder{
+    overflow-x: scroll;
+    background-color: #949a9d;
+    display:flex;
+    justify-content: left;
+    margin-top: 20px;
+    border-radius: 30px;
+
+}
+.card{
+    position:relative;
+    background-color:#C7B198;
+    height: 420px;
+    width: 250px;
+    margin:15px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    
+}
+.card:hover{
+    background-color: #bb9467;
+    height: 400px;  
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.3);
+}
